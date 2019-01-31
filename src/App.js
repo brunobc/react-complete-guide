@@ -22,7 +22,9 @@ class App extends Component {
           </a>
         </header>
 
-        <Person />
+        <Person name="Jose" age="45"/>
+        <Person name="Joao" age="30">My Hobbies: Racing</Person>
+        <Person name="Maria" age="25"/>
       </div>
     );
     // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
